@@ -81,7 +81,7 @@ export function Header() {
           {/* Right - Language & Search */}
           <div className="flex items-center gap-6">
             <button
-              onClick={() => setSelectedLanguage(selectedLanguage === 'VN' ? 'EN' : 'VN')}
+              onClick={() => setSelectedLanguage(selectedLanguage === 'EN' ? 'VN' : 'EN')}
               className="flex items-center gap-2 text-[10px] font-black text-gray-400 hover:text-white transition-colors"
             >
               <Globe className="h-4 w-4" />
@@ -97,7 +97,7 @@ export function Header() {
 >
   <input
     type="text"
-    placeholder="Tìm kiếm"
+    placeholder="Search"
     className="flex-1 bg-transparent outline-none text-sm text-white placeholder-gray-400"
   />
   <Search className="h-4 w-4 text-gray-400" />

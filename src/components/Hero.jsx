@@ -31,7 +31,7 @@ export function Hero() {
             animate={{ opacity: 1, x: 0 }}
             className="mb-4 block text-sm font-bold tracking-[0.4em] text-purple-500 uppercase"
           >
-            Leading Game Publisher
+            NEXT-GEN GAME PUBLISHER
           </motion.span>
 
 <motion.div
@@ -40,9 +40,9 @@ export function Hero() {
   transition={{ delay: 0.2 }}
 >
   <h1 className="mb-6 text-5xl md:text-7xl font-black text-white leading-[1.1] uppercase tracking-tight">
-    Tạo Nên trải nghiệm<br />
+    CRAFTING PREMIUM<br />
     <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 via-pink-500 to-red-500">
-      game Đỉnh Cao
+      GAMING EXPERIENCES
     </span>
   </h1>
 </motion.div>
@@ -53,7 +53,7 @@ export function Hero() {
             transition={{ delay: 0.4 }}
             className="mb-10 max-w-10xl text-lg text-white md:text-2xl leading-relaxed "
           >
-            Chúng tôi không chỉ làm game, chúng tôi kiến tạo những thế giới mới. Studio dẫn đầu với hơn 100 triệu người chơi mỗi tháng.
+           We create bold, high-impact gaming experiences that connect millions of players globally.
           </motion.p>
 
           <motion.div 
@@ -66,14 +66,14 @@ export function Hero() {
             <button className="group relative overflow-hidden rounded-sm bg-linear-to-r from-purple-600 to-pink-600 px-10 py-4 text-sm font-black uppercase tracking-widest text-white transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(168,85,247,0.4)]">
               <span className="relative z-10 flex items-center gap-3">
                 <Play className="h-5 w-5 fill-current" />
-                Xem Demo Reel
+                WATCH DEMO REEL
               </span>
               <div className="absolute inset-0 bg-white opacity-0 transition-opacity group-hover:opacity-20" />
             </button>
 
             {/* Button phụ: Ghost button */}
             <button className="px-10 py-4 border border-white/20 hover:border-white hover:bg-white/10 text-sm font-black uppercase tracking-widest text-white transition-all rounded-sm">
-              Tất cả dự án
+              VIEW ALL PROJECTS
             </button>
           </motion.div>
         </div>
