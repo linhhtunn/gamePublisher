@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Bạn có thể viết CSS custom ngay dưới đây */
+body {
+  @apply bg-black text-white;
+}
