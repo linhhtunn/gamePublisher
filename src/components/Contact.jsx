@@ -36,7 +36,7 @@ export function Contact() {
               </span>
             </h2>
             <p className="mb-12 text-lg text-gray-400 font-medium max-w-md border-l-2 border-purple-600 pl-6">
-              Bạn có một ý tưởng game đột phá? Hãy cùng Phoenix Studio biến nó thành hiện thực.
+              Do you have a groundbreaking game idea? Let Phoenix Studio help you bring it to life.
             </p>
 
             <div className="space-y-6">
@@ -45,7 +45,7 @@ export function Contact() {
                   <Mail className="h-5 w-5 text-purple-400" />
                 </div>
                 <div>
-                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-500">Gửi Email</p>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-500">Send Email</p>
                   <p className="font-bold text-gray-200">contact@phoenixstudio.com</p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="text-[10px] font-black uppercase tracking-widest text-gray-400">Họ và tên</label>
+                  <label className="text-[10px] font-black uppercase tracking-widest text-gray-400">Name</label>
                   <input
                     type="text" required value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -93,12 +93,12 @@ export function Contact() {
                 </div>
               </div>
               <div className="space-y-2">
-                <label className="text-[10px] font-black uppercase tracking-widest text-gray-400">Tin nhắn</label>
+                <label className="text-[10px] font-black uppercase tracking-widest text-gray-400">Message</label>
                 <textarea
                   required rows={4} value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="w-full bg-black/40 border border-white/5 px-4 py-4 text-white focus:border-purple-500 focus:outline-none transition-all rounded-sm resize-none"
-                  placeholder="Tôi muốn hợp tác..."
+                  placeholder="I want ..."
                 />
               </div>
               <button type="submit" className="group w-full bg-white py-5 text-black font-black uppercase tracking-[0.3em] text-xs hover:bg-purple-600 hover:text-white transition-all transform hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-3">

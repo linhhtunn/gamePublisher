@@ -184,7 +184,7 @@ const gamesData = [
   },
     {
     id: 4,
-    title: 'Candy Crush Saga',
+    title: 'Cut the Rope',
     category: 'Puzzle',
     image: 'https://www.hollywoodreporter.com/wp-content/uploads/2014/02/candy_crush.jpg?w=2000&h=1126&crop=1',
   },

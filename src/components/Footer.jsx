@@ -7,16 +7,13 @@ export function Footer() {
   };
 
   const footerLinks = [
-    "Báo chí",
-    "Bảo mật",
-    "Pháp lý",
-    "Điều khoản sử dụng",
-    "Chính sách quyền riêng tư",
-    "Hỗ trợ người chơi",
-    "Xác minh điện tử",
-    "Khả năng tiếp cận",
-    "Báo cáo thường niên",
-    "Cam kết cộng đồng",
+    "Privacy Policy",
+    "Data deletion",
+
+    "Terms of Use",
+
+    "Community Commitment",
+
   ];
 
   const socialLinks = [
