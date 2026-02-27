@@ -5,8 +5,8 @@ export function About() {
 
   const features = [
     {
-      label: 'Sáng Tạo',
-      desc: 'Đột phá ranh giới trí tưởng tượng',
+      label: 'Creativity',
+      desc: 'Pushing the boundaries of imagination.',
       Icon: Zap,
       glow: 'from-purple-500/10',
       bgIcon: 'bg-purple-500/10',
@@ -15,8 +15,8 @@ export function About() {
       line: 'bg-purple-500'
     },
     {
-      label: 'Chiến Thắng',
-      desc: 'Mang vinh quang đến mọi người chơi',
+      label: 'Excellence',
+      desc: 'Delivering world-class experiences that inspire achievement.',
       Icon: Trophy,
       glow: 'from-yellow-400/10',
       bgIcon: 'bg-yellow-400/10',
@@ -25,8 +25,8 @@ export function About() {
       line: 'bg-yellow-400'
     },
     {
-      label: 'Cộng Đồng',
-      desc: 'Kết nối hàng triệu game thủ',
+      label: 'Community',
+      desc: 'Building strong, connected global player ecosystems.',
       Icon: Users,
       glow: 'from-cyan-400/10',
       bgIcon: 'bg-cyan-400/10',
@@ -57,16 +57,15 @@ export function About() {
           >
 
             <h2 className="text-center mb-4 text-4xl uppercase text-white leading-[1.1]">
-              Chúng Tôi Là <br />
+              WE ARE <br />
               <span className="md:text-8xl font-black text-transparent bg-clip-text bg-linear-to-r from-purple-400 via-pink-500 to-purple-600">
                 PHOENIX
               </span>
             </h2>
 
             <p className="mb-8 text-2xl leading-relaxed text-gray-300">
-              Chúng tôi không chỉ tạo ra game, mà tạo ra những trải nghiệm đáng nhớ.
-              Với đam mê và công nghệ tiên tiến, Phoenix Studio kiến tạo những thế giới
-              ảo đầy cảm xúc, nơi hàng triệu người chơi tìm thấy vinh quang.
+              We don’t just create games — we craft unforgettable experiences.
+Driven by passion and cutting-edge technology, Phoenix Studio builds immersive virtual worlds filled with emotion, where millions of players find their moment of glory.
             </p>
 
           </motion.div>

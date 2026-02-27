@@ -5,19 +5,29 @@ import { Numbers } from './components/Numbers';
 import { Portfolio } from './components/Portfolio';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-
-
+import { DevelopersSection } from './components/DevelopersSection';
+import { InvestorsSection } from './components/InvestorsSection';
+import { PlayersSection } from './components/PlayersSection';
+import { StarBackground } from './components/StarBackground';
 function App() {
   return (
-    <main className="min-h-screen
-      bg-[radial-gradient(circle_at_center,#6A3FB3_0%,#4A2D8F_40%,#0E1A3A_100%)]">
-      <Header/>
-      <Hero />
-      <Numbers />
-      <About/>
-      <Portfolio />
-      <Contact/>
-      <Footer />
+    <main className="relative min-h-screen bg-[#050505]">
+      {/* 1. Lớp nền lấp lánh cố định */}
+      <StarBackground />
+
+      {/* 2. Nội dung các Section */}
+      <div className="relative z-10">
+        <Header/>
+        <Hero />
+        <About/>
+        <InvestorsSection/>
+        <DevelopersSection/>
+        <PlayersSection/>
+        <Numbers />
+        <Portfolio />
+        <Contact/>
+        <Footer />
+      </div>
     </main>
   );
 }
