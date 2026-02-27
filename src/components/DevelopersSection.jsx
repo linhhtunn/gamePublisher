@@ -155,7 +155,7 @@ export function DevelopersSection() {
                 <div className={`absolute inset-0 bg-gradient-to-r ${service.gradient} rounded-2xl opacity-0 group-hover:opacity-30 blur-lg transition-all duration-500 `} />
                 
                 {/* Nội dung button */}
-                <div className="relative flex items-center gap-6 p-4 bg-[#0a0a0a] rounded-2xl w-full h-full border border-white/5">
+                <div className="relative flex items-center gap-6 p-4 bg-[#0a0a0a] rounded-2xl w-full h-full border border-purple-500">
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center bg-gradient-to-br ${service.gradient} flex-shrink-0 shadow-lg`}>
                     <service.icon className="w-5 h-5 text-white" />
                   </div>

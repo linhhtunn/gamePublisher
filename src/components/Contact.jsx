@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, Mail, Phone} from 'lucide-react';
+import { Building2,Send, Mail, Phone} from 'lucide-react';
 
 export function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
+ 
   });
 
   const handleSubmit = (e) => {
@@ -36,17 +37,26 @@ export function Contact() {
               </span>
             </h2>
             <p className="mb-12 text-lg text-gray-400 font-medium max-w-md border-l-2 border-purple-600 pl-6">
-              Do you have a groundbreaking game idea? Let Phoenix Studio help you bring it to life.
+              Do you have a groundbreaking game idea? Let Teraxel Limited  help you bring it to life.
             </p>
 
             <div className="space-y-6">
+              <div className="flex items-center gap-6 group">
+                <div className="flex h-12 w-19 items-center justify-center rounded-sm bg-gray-900 border border-white/5 group-hover:border-purple-500 transition-colors">
+                  <Building2 className="h-5 w-5 text-purple-400" />
+                </div>
+                <div>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-500">Address</p>
+                  <p className="font-bold text-gray-200">UNIT 1603, 16TH FLOOR, THE L. PLAZA 367‑375 QUEEN’S ROAD CENTRAL SHEUNG WAN HONG KONG.</p>
+                </div>
+              </div>
               <div className="flex items-center gap-6 group">
                 <div className="flex h-12 w-12 items-center justify-center rounded-sm bg-gray-900 border border-white/5 group-hover:border-purple-500 transition-colors">
                   <Mail className="h-5 w-5 text-purple-400" />
                 </div>
                 <div>
                   <p className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-500">Send Email</p>
-                  <p className="font-bold text-gray-200">contact@phoenixstudio.com</p>
+                  <p className="font-bold text-gray-200">contact@teraxellimited.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-6 group">
@@ -79,7 +89,7 @@ export function Contact() {
                     type="text" required value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full bg-black/40 border border-white/5 px-4 py-4 text-white focus:border-purple-500 focus:outline-none transition-all rounded-sm"
-                    placeholder="Phoenix Developer"
+                    placeholder="Teraxel Limited  Developer"
                   />
                 </div>
                 <div className="space-y-2">
@@ -102,7 +112,7 @@ export function Contact() {
                 />
               </div>
               <button type="submit" className="group w-full bg-white py-5 text-black font-black uppercase tracking-[0.3em] text-xs hover:bg-purple-600 hover:text-white transition-all transform hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-3">
-                Gửi tin nhắn
+                Send message
                 <Send size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </button>
             </form>

@@ -186,19 +186,31 @@ const gamesData = [
     id: 4,
     title: 'Cut the Rope',
     category: 'Puzzle',
-    image: 'https://www.hollywoodreporter.com/wp-content/uploads/2014/02/candy_crush.jpg?w=2000&h=1126&crop=1',
+    image: 'https://i.pinimg.com/736x/d9/c6/95/d9c695bbcad29897b3c92c8f238bf597.jpg',
   },
   {
     id: 5,
-    title: 'Candy Kingdom',
+    title: 'Temple Run',
     category: 'Casual',
-    image: 'https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?q=80&w=1080',
+    image: 'https://i.pinimg.com/736x/bb/59/61/bb5961eb70be2e21e9b740f4e2b0c40b.jpg',
   },
   {
     id: 6,
     title: 'Subway Surfers',
     category: 'Casual',
     image: 'https://i.pinimg.com/1200x/99/63/af/9963af8a50685afd7d2209097d74c4c3.jpg',
+  },
+    {
+    id: 7,
+    title: 'Among Us',
+    category: 'Casual',
+    image: 'https://i.pinimg.com/1200x/a1/8b/be/a18bbe41bc4fe64dccfa325becaa4901.jpg',
+  },
+      {
+    id: 8,
+    title: 'Plants & Zombies',
+    category: 'Casual',
+    image: 'https://i.pinimg.com/1200x/0a/f6/f2/0af6f25ff6e2a15e76c4a999113b463a.jpg',
   },
   {
     id: 9,
@@ -211,6 +223,18 @@ const gamesData = [
     title: 'Johnny Trigger',
     category: 'Hyper Casual',
     image: 'https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/177774/Originals/hyper-casual-7.jpeg',
+  },
+   {
+    id: 11,
+    title: 'Color Switch',
+    category: 'Hyper Casual',
+    image: 'https://i.ytimg.com/vi/LvltAwFXq8Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAX6v-E-fqMYpm8f2N8vo-sOrjoMA',
+  },
+  {
+    id: 12,
+    title: 'Stack Ball',
+    category: 'Hyper Casual',
+    image: 'https://i.pinimg.com/736x/4d/32/c0/4d32c0a4734d1e7b45ec2eb51417ce2d.jpg',
   },
 ];
 
@@ -248,7 +272,7 @@ export function Portfolio() {
           viewport={{ once: true }}
           className="mb-16 text-center"
         >
-    <h2 className="mb-4 text-5xl font-black text-white md:text-7xl uppercase tracking-tighter italic leading-none">
+    <h2 className="mb-4 text-5xl font-black text-white md:text-7xl uppercase tracking-tighter leading-none">
            Portfolio Game 
            </h2>
           <p className="text-xl text-gray-500 font-medium">
@@ -330,6 +354,9 @@ export function Portfolio() {
           </AnimatePresence>
         </div>
       </div>
+        {/* Divider */}
+      <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-transparent via-white/50 to-transparent" />
+
     </section>
   );
 }

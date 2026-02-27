@@ -8,6 +8,7 @@ import { Footer } from './components/Footer';
 import { DevelopersSection } from './components/DevelopersSection';
 import { InvestorsSection } from './components/InvestorsSection';
 import { PlayersSection } from './components/PlayersSection';
+import { Partners } from './components/Partners';
 import { StarBackground } from './components/StarBackground';
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <PlayersSection/>
         <Numbers />
         <Portfolio />
+        <Partners/>
         <Contact/>
         <Footer />
       </div>

@@ -167,6 +167,9 @@ export function Numbers() {
           ))}
         </div>
       </div>
+        {/* Divider */}
+      <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-transparent via-white/50 to-transparent" />
+
     </section>
   );
 }

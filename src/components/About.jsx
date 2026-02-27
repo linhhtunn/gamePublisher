@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Zap, Trophy, Users } from 'lucide-react'
-
+import backgroundImage from '../assets/img/backBlue.jpg'
 export function About() {
 
   const features = [
@@ -43,10 +43,11 @@ export function About() {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -left-[10%] top-0 h-150 w-150 rounded-full bg-purple-600/10 blur-[120px]" />
         <div className="absolute -right-[10%] bottom-0 h-150 w-150 rounded-full bg-blue-600/10 blur-[120px]" />
+        
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6">
-        <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
+        <div className="grid gap-20 lg:grid-cols-2 lg:items-center ">
 
           {/* LEFT */}
           <motion.div
@@ -56,14 +57,14 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
 
-            <h2 className="text-center mb-4 text-4xl uppercase text-white leading-[1.1]">
+            <h2 className="text-center w-160 mb-4 text-4xl uppercase text-white leading-[1.1]">
               WE ARE <br />
-              <span className="md:text-8xl font-black text-transparent bg-clip-text bg-linear-to-r from-purple-400 via-pink-500 to-purple-600">
-                PHOENIX
+              <span className="md:text-7xl font-black text-transparent bg-clip-text bg-linear-to-r from-purple-400 via-pink-500 to-purple-600">
+                Teraxel Limited
               </span>
             </h2>
 
-            <p className="mb-8 text-2xl leading-relaxed text-gray-300">
+            <p className="w-160 mb-8 text-2xl leading-relaxed text-gray-300">
               We don’t just create games — we craft unforgettable experiences.
 Driven by passion and cutting-edge technology, Phoenix Studio builds immersive virtual worlds filled with emotion, where millions of players find their moment of glory.
             </p>
@@ -71,7 +72,7 @@ Driven by passion and cutting-edge technology, Phoenix Studio builds immersive v
           </motion.div>
 
           {/* RIGHT - CARDS */}
-          <div className="grid gap-4 w-100">
+          <div className="grid gap-4 w-100 ml-35">
 
             {features.map((item, idx) => (
               <motion.div
@@ -114,7 +115,7 @@ Driven by passion and cutting-edge technology, Phoenix Studio builds immersive v
       </div>
 
       {/* Divider */}
-      <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-transparent via-white/50 to-transparent" />
 
     </section>
   )

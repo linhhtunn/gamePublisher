@@ -56,7 +56,7 @@ export function Header() {
               <div className="absolute inset-0 bg-white/20 translate-y-10 group-hover:translate-y-0 transition-transform" />
             </div>
             <span className="text-xl font-black uppercase italic tracking-tighter text-white">
-              PHOENIX<span className="text-purple-500">.</span>
+              Teraxel Limited<span className="text-purple-500">.</span>
             </span>
           </div>
 
