@@ -5,8 +5,8 @@ export function About() {
 
   const features = [
     {
-      label: 'Creativity',
-      desc: 'Pushing the boundaries of imagination.',
+      label: 'Monetization',
+      desc: 'Hybrid Ads & IAP strategies maximizing LTV and sustainable growth.',
       Icon: Zap,
       glow: 'from-purple-500/10',
       bgIcon: 'bg-purple-500/10',
@@ -15,8 +15,8 @@ export function About() {
       line: 'bg-purple-500'
     },
     {
-      label: 'Excellence',
-      desc: 'Delivering world-class experiences that inspire achievement.',
+      label: 'Product Optimization',
+      desc: 'Data-driven testing to improve retention, engagement, and ROI.',
       Icon: Trophy,
       glow: 'from-yellow-400/10',
       bgIcon: 'bg-yellow-400/10',
@@ -25,8 +25,8 @@ export function About() {
       line: 'bg-yellow-400'
     },
     {
-      label: 'Community',
-      desc: 'Building strong, connected global player ecosystems.',
+      label: 'User Acquisition',
+      desc: 'Performance campaigns with creative testing and CPI optimization to scale globally',
       Icon: Users,
       glow: 'from-cyan-400/10',
       bgIcon: 'bg-cyan-400/10',
@@ -65,9 +65,9 @@ export function About() {
             </h2>
 
             <p className="w-160 mb-8 text-2xl leading-relaxed text-gray-300">
-              We don’t just create games — we craft unforgettable experiences.
-Driven by passion and cutting-edge technology, Phoenix Studio builds immersive virtual worlds filled with emotion, where millions of players find their moment of glory.
-            </p>
+              We are a performance-driven game and app publisher, empowering developers to scale globally.
+With expertise in user acquisition, creative testing, and monetization optimization, we transform promising products into high-performing, revenue-generating successes.
+From market validation to worldwide distribution, we help partners unlock sustainable growth and maximize lifetime value.            </p>
 
           </motion.div>
 
