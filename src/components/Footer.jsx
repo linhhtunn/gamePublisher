@@ -1,4 +1,4 @@
-import { Gamepad2, Building2, Mail, Phone } from "lucide-react";
+import { Gamepad2, Building2, Mail, Phone,Check,} from "lucide-react";
 import { SiFacebook, SiX, SiYoutube, SiInstagram } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -74,6 +74,17 @@ export function Footer() {
                 <div>
                   
                   <p className="font-bold text-gray-200">contact@teraxellimited.com</p>
+                </div>
+              </div>
+
+              {/* Email */}
+              <div className="flex items-center gap-6 group">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-sm">
+                  <Check className="h-5 w-5" />
+                </div>
+                <div>
+                  
+                  <p className="font-bold text-gray-200">75645584</p>
                 </div>
               </div>
 
