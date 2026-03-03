@@ -4,7 +4,7 @@ import { Gamepad2, Globe, Search } from 'lucide-react';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState('VN');
+  const [selectedLanguage, setSelectedLanguage] = useState('EN');
 
   useEffect(() => {
     const handleScroll = () => {

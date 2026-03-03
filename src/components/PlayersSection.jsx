@@ -133,7 +133,7 @@ export function PlayersSection() {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="group relative p-[1.5px]  mt-55 rounded-3xl overflow-hidden transition-all duration-500"
+            className="group relative p-[1.5px]  mt-72 rounded-3xl overflow-hidden transition-all duration-500"
           >
             {/* Viền sáng loang cho ảnh khi hover (Giống button) */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 blur-md transition-opacity duration-500" />

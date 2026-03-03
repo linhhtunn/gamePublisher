@@ -22,11 +22,11 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-[#211f1f] border-t border-white/5 pt-12 pb-12">
+    <footer className="bg-[#211f1f] border-t  border-white/5 pt-6 pb-6">
       <div className="mx-auto max-w-7xl px-6">
         
         {/* TOP SECTION: CONTACT & BRANDING */}
-        <div className=" gap-20 lg:grid-cols-2 mb-20">
+        <div className=" gap-20 lg:grid-cols-2 mb-">
           
           {/* LEFT: INFO */}
           <motion.div
@@ -44,7 +44,7 @@ export function Footer() {
           >
             <button
               onClick={handleLogoClick}
-              className="group flex items-center lg:items-end gap-4 transition-all mb-6 "
+              className="group flex items-center lg:items-end gap-4 transition-all mb-1 "
             >
               <div className="p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-purple-500/50 group-hover:bg-purple-500/5 transition-all">
                 <Gamepad2 className="h-8 w-8 text-white group-hover:rotate-12 transition-transform duration-500" />
@@ -54,7 +54,7 @@ export function Footer() {
               </span>
             </button>
           </motion.div>
-            <div className="space-y-6">
+            <div className="space-y-0.1">
               {/* Address */}
               <div className="flex items-center gap-6 group">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-sm">
@@ -107,7 +107,7 @@ export function Footer() {
         </div>
 
         {/* BOTTOM BAR */}
-        <div className="pt-12 border-t border-white/5 flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+        <div className=" border-t border-white/5 flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           
           {/* Legal Links */}
           <div className="flex flex-wrap gap-x-8 gap-y-3 text-[11px] uppercase tracking-widest">
@@ -137,7 +137,7 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 text-center text-[10px] text-gray-600 uppercase tracking-[0.2em]">
+        <div className="mt-3 text-center text-[10px] text-gray-600 uppercase tracking-[0.2em]">
           © 2026 Teraxel Limited Game Studio. Powered by Innovation.
         </div>
       </div>
