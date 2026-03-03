@@ -27,7 +27,6 @@ Dự án được thiết kế với phong cách hiện đại, tập trung vào
 
 ### 2. Chỉ số & Cộng đồng
 ![Numbers](./src/assets/numbersSection.png)
-![Players](./src/assets/playersSection.png)
 
 ### 3. Giới thiệu 
 ![About](./src/assets/aboutSection.png)
